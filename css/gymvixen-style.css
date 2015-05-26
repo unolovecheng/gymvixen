@@ -1,0 +1,129 @@
+/*
+ Theme Name:   GymVixenSupplements.com
+ Description:  GymVixenSupplements.com theme
+ Author:       Dan Smyth
+ Template:     munmarket-customized
+ Version:      1.0.0
+ Text Domain:  gymvixensupplements.com
+*/
+
+/*************** General ***************/
+	.clearFix:after{content:"";display:table;clear:both;}
+	.productDescriptor{font-family:Oswald;font-size:16px;font-weight:400;color:#E51992;margin-bottom:4px;text-transform:uppercase;}
+
+/*************** Layout ***************/
+	.main{z-index:auto;} /* Without this, the social media icons at the bottom of the page get covered up on some pages/posts */
+
+/*************** Header ***************/
+	.menu > li.noClick a:hover{color:#333 !important;cursor:default;}
+	i.fa-2x{color:#E51992;}
+	.top-cart{transition:background-color 0.2s ease; background:#393939 !important;}
+	.top-cart:hover{background: none repeat scroll 0% 0% #E51992 !important;}
+
+/*************** Home Page ***************/
+	.bullet{-moz-box-shadow:0 0 0 1px #BBB;-webkit-box-shadow:0 0 0 1px #BBB;box-shadow:0 0 0 1px #BBB;}
+	.tp-caption a{font-family:Oswald;font-size:20px;font-weight:300;color:#333;border:2px solid #333;padding:10px 15px;display:block;float:left;}
+	.tp-caption a:hover{background:#E51992;border-color:#E51992;color:#FFF;}
+	.aq-block-aq_contact_block{padding-top:0;color:#FFF;}
+	.testimonials {margin-top:60px !important;}
+
+/*************** Consultants Page ***************/
+	#wpcf7-f8376-p8336-o1 {width:95%;}
+	.wpcf7-submit{margin-top:20px;background:#E51992 !important;font-family:Oswald !important;font-weight:normal;line-height:110%;border-bottom:4px solid #424242 !important;color:#FFF;padding:5px 30px;}
+	#loginform{width:95%;}
+	#wp-submit{background:#E51992 !important;font-family:Oswald !important;font-weight:normal;line-height:110%;border-bottom:4px solid #424242 !important;color:#FFF;padding:5px 30px;}
+	#consultantOrders{position:relative;width:100%;border:1px solid #CCC;padding:16px;-moz-box-sizing:border-box;box-sizing:border-box;border-radius:3px;}
+	#consultantOrders .coColumns{float:left;}
+	#consultantOrders .coHeaders{font-weight:bold;margin-bottom:16px;border-bottom:1px solid #CCC;padding-bottom:8px;}
+	#consultantOrders .nameCoColumn{clear:left;width:50%;}
+	#consultantOrders .dateCoColumn{width:25%;}
+	#consultantOrders .totalCoColumn{width:25%;}
+
+/*************** Product List blocks ***************/
+	.one_fourth{margin-bottom:20px;}
+	.taglines{width:200px;}
+	.shop .taglines{width:240px;}
+	.taglines.recentDetails{padding-top:7px;}
+	#productTaglines .taglines{top:50px !important;}
+	#productTaglines .taglines ul{list-style:disc inside none;margin-left:0;}
+	#productTaglines .taglines ul li{display:block;color:#FFF;font-size:16px;line-height:19px;color:#FFF;text-transform:none;text-align:left;margin-bottom:15px; width:auto !important;}
+	.homerecent .productButtons > a{display:block;height:100%;}
+	.homerecent .recentdescription{padding-bottom:20px;max-width:278px !important;}
+	.homerecent .recentdescription h3{font-family:Oswald !important;font-size:30px !important;font-weight:600 !important;color:#333;margin-bottom:16px;}
+	.homerecent .recentdescription h3:hover{color:#333 !important;}
+	.homerecent .productDescriptor{margin-bottom:4px;}
+	.homerecent .productButtonBox{padding-left:21px;}
+	.homerecent .productButton{font-family:Oswald;font-size:16px;font-weight:300;color:#333;border:2px solid #333;padding:10px 15px;display:block;float:left;}
+	.homerecent .productButton:hover{background:#E51992;border-color:#E51992;color:#FFF;}
+	.homerecent .productButton.learnMore{margin-right:9px;}
+
+/*************** Checkout Page ***************/
+	input#rememberme{margin:0;width:20px;}
+	input#stripe-card-number{width:180px !important;}
+	input#stripe-card-expiry{width:85px !important;}
+	input#stripe-card-cvc{width:55px !important;}
+	input#payment_method_paypal{margin-top:9px !important;}
+	.woocommerce .payment_method_stripe label{float:none;}
+	
+/*************** Product pages ***************/
+	.leftContentSP .images.imagesSP{height:600px;}
+	.titleSP h2{font-weight:600;margin-bottom:22px;}
+	.descriptionSP{padding:23px 0;margin-top:0;}
+	.descriptionSP ul{list-style:none;padding:0;margin:0;}
+	.descriptionSP li{padding-left:1em; text-indent:-0.7em;}
+	.descriptionSP li:before{content:"\2022";color:#E51992;margin-right:5px;font-size:1.5em;position:relative;top:0.13em;}
+	#productGuarantee{padding-top:25px;}
+	.productChoices{padding-bottom:10px;}
+	.cart-wraper-SP{margin:11px 0 2px;}
+	.cart-wraper-SP .variations{background:#FFF !important;border:none !important;margin-bottom:9px;}
+	.quantity-label{float:left;font-weight:400;padding:10px 0;margin-right:35px;}
+	.variation-row{padding:8px 0 0;}
+	.variation-label{display:block;float:left;padding:5px;margin:10px 17px 10px 0;}
+	.single_variation_wrap{margin-top:0;}
+	.quantity_wrap{padding-bottom:18px;}
+	.simple_quantity_wrap{padding-top:16px;padding-bottom:29px;}
+	.productPrice{clear:both;padding:25px 0 0;border-top:1px solid #DDD;margin-bottom:28px;}
+	.rightContentSP .price{padding:0;margin:0;border:none;float:none;}
+	.rightContentSP .price .amount{font-size:30px;color:#333;background:none !important; font-weight:bold !important;padding:0;float:none;}
+	.rightContentSP button.single_add_to_cart_button{background:#1FAD5B !important;font-family:Oswald !important;font-size:24px !important;font-weight:600 !important;color:#FFF;padding:17px 29px;height:auto;}
+	.rightContentSP button.single_add_to_cart_button:hover{background:#1FAD5B !important;}
+	.socialProduct{border:none;}
+	div.product .woocommerce-tabs{width:99.8%;padding-top:4px;margin-top:20px;}
+	div.product .woocommerce-tabs ul.tabs a{font-family:Oswald !important;width:175px;text-align:center;padding:5px 0;}
+	div.product .woocommerce-tabs h3{font-size:30px !important;font-weight:600;text-transform:uppercase;margin-bottom:16px;}
+	div.product .woocommerce-tabs p{line-height:24px;margin-bottom:2em;}
+	.woocommerce-tabs #tab-description{padding:36px;}
+	div.light_rounded .pp_expand{top:0;right:auto;left:19px;}
+	div.light_rounded .pp_contract{top:0;right:auto;left:19px;}
+	a.pp_arrow_previous, a.pp_arrow_next{margin-top:8px !important;}
+
+/*************** Footer ***************/
+	#footer .menu > li.noClick a:hover{color:#FFF !important;}
+        #footerb .copyright {width:70%;}
+
+/*************** Cart *****************/
+	body.woocommerce-cart .content.fullwidth{max-width:800px;margin:0 auto;float:none;}
+	body.woocommerce-cart .footer-social, body.woocommerce-checkout .footer-social{display:none;}
+	body.woocommerce-cart input.button:first-child, .cartTopDetails .product_list_widget .buttons a:first-child{background-color:#666 !important;}
+	th.product-quantity{min-width:112px;}
+	th.product-remove, td.product-remove{width:20px;}
+	td.product-remove{text-align:center;}
+	table.shop_table{border-collapse:collapse;}
+	body.woocommerce-checkout .main{max-width:500px;}
+	#customer_details{margin-top:10px;}
+	.about_paypal{display:none;}
+	label[for="payment_method_paypal"]{background:url("https://www.paypal.com/en_US/i/btn/btn_xpressCheckoutsm.gif") 68px 2px no-repeat;width:250px;height:42px; display:inline-block;-moz-box-sizing:border-box;box-sizing:border-box;}
+	label[for="payment_method_paypal"] img{display:none;}
+	#payment div.form-row .button{width:300px;margin:0 !important;float:none;}
+	#payment div.form-row{margin:0 !important;padding:0;}
+	#payment #place_order{float:left;padding:15px;font-size:25px;margin:17px !important;}
+	#customer_details h3{font-size:20px !important;}
+	input.wc-credit-card-form-card-expiry{width:70px !important;}
+
+/************* Media Queries ****************/
+@media only screen and (max-width:480px) {
+/* Cart page */
+	.shop_table .minus{display:none;}
+	.shop_table .plus{display:none;}
+	#customer_details h3, h3#order_review_heading{font-size:24px !important;}
+}
